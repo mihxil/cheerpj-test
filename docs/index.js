@@ -13,7 +13,7 @@ const cj = await cheerpjRunLibrary(`${pref}cheerpj-test-${version}.jar`);
 
 const Impl = await cj['org.meeuw.cheerpj.Impl']
 
-const instance = await new Impl();
+const instance = await Impl.INSTANCE;
 
 const output = document.querySelector("output");
 const a = await instance.getResult();

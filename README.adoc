@@ -1,0 +1,7 @@
+= Testing Cheerpj
+
+This contains source code for https://mihxil.github.io/cheerpj-test/
+
+Compare with
+
+https://mihxil.github.io/math/cheerpj-test/
